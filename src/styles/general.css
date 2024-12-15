@@ -52,6 +52,10 @@ li {
     list-style: none;
 }
 
+nav {
+    padding-top: 1rem;
+}
+
 p {
     font-weight: var(--fw-regular);
 }
@@ -61,9 +65,41 @@ p {
     background-image: url(/src/images/RedditLogo.png); /* set background image */
 	background-size: 100% 100%; /* stretch background image */
 	display: block; /* only block level elements can have width / height */
-	height: 5.5rem; /* stretch link to desired height */
+	height: 3.2rem; /* stretch link to desired height */
 	overflow: hidden; /* hide text outside */
 	text-indent: 100%; /* push text outside */
 	white-space: nowrap; /* single line of text */
-	width: 5.5rem; /* stretch link to desired width */
+	width: 3.2rem; /* stretch link to desired width */
+}
+
+.nav--searchBar {
+    background-color: var(--clr-neutral);
+    border-radius: 2rem;
+    overflow: hidden;
+    min-width: 56rem;
+}
+
+.nav--searchBar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 1rem;
+    background-color: var(--clr-neutral);
+    min-height: 2.5rem;
+}
+
+.nav--searchBar--search {
+    display: inline-flex;
+    margin-right: 0.5rem;
+}
+
+.nav--searchBar svg {
+    height: 16px;
+    width: 16px;
+
+}
+
+.account img {
+    height: 3.2rem;
+    width: 3.2rem;
 }
