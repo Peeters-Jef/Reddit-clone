@@ -3,7 +3,7 @@ import Logo from './Logo';
 
 function Nav() {
     return (
-        <nav className="nav flex flex-jc-sb">
+        <nav className="container nav flex flex-jc-sb">
             <Logo />
             <div className="nav--searchBar flex flex-ai-c">
                 <svg className='nav--searchBar--search' aria-hidden="true" fill="currentColor" icon-name="search-outline" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

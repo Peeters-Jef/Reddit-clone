@@ -1,10 +1,10 @@
 function Sidebar() {
     return (
-        <div className="left-sidebar sticky">
+        <div className="container left-sidebar sticky">
             <nav className="left-sidebar--nav">
                 <ul className="left-sidebar--heading">
                     <ul className="left-sidebar--subitems" id="nav--sub-ul">
-                        <li>
+                        <li className="active">
                             <a href="#">Home</a>
                         </li>
                         <li>
