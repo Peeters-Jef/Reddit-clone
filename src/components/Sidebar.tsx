@@ -3,35 +3,32 @@ function Sidebar() {
         <div className="left-sidebar sticky">
             <nav className="left-sidebar--nav">
                 <ul className="left-sidebar--heading">
-                    <li>
-                        <a href="#">topics</a>
-                    </li>
-                    <ul className="left-sidebar--subitems" id="topics--sub-ul">
+                    <ul className="left-sidebar--subitems" id="nav--sub-ul">
                         <li>
-                            <a href="#">Internet Culture (Viral)</a>
+                            <a href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#">Games</a>
+                            <a href="#">Popular</a>
                         </li>
                         <li>
-                            <a href="#">Q&as</a>
+                            <a href="#">Explore</a>
                         </li>
                         <li>
-                            <a href="#">technology</a>
+                            <a href="#">All</a>
                         </li>
                     </ul>
-                    <li>
-                        <a href="#">resources</a>
+                    <li className="left-sidebar--heading-item">
+                        <a href="#">communities</a>
                     </li>
-                    <ul className="left-sidebar--subitems" id="resources--sub-ul">
+                    <ul className="left-sidebar--subitems" id="communities--sub-ul">
                         <li>
-                            <a href="#">About Reddit</a>
+                            <a href="#">r/Anki</a>
                         </li>
                         <li>
-                            <a href="#">Advertise</a>
+                            <a href="#">r/linux</a>
                         </li>
                         <li>
-                            <a href="#">Help</a>
+                            <a href="#">r/Piracy</a>
                         </li>
                     </ul>
                 </ul>
