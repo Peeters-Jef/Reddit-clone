@@ -31,8 +31,11 @@
  *  =========
 */
 
+.active {
+    background-color: var(--clr-neutral);
+}
 .container {
-    margin: auto;
+    padding: 0 1rem;
 }
 
 .hidden {

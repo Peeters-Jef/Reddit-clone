@@ -1,3 +1,7 @@
+.left-sidebar {
+    width: 20rem;
+}
+
 .left-sidebar--nav {
     display: flex;
     flex-direction: row;
@@ -7,6 +11,20 @@
     padding-bottom: 2rem;
 }
 
+.left-sidebar a {
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+}
+
+.left-sidebar--subitems li {
+    border-radius: 0.75rem;
+    height: 3.5rem;
+}
+
 .left-sidebar--heading-item a {
     color: var(--clr-primary);
+}
+
+.left-sidebar--heading {
+    width: 100%; 
 }
