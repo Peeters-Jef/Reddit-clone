@@ -1,0 +1,12 @@
+.left-sidebar--nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-sidebar--subitems {
+    padding-bottom: 2rem;
+}
+
+.left-sidebar--heading-item a {
+    color: var(--clr-primary);
+}

@@ -1,8 +1,8 @@
 :root {
     --clr-primary: rgba(255, 69, 0, 1);
     --clr-neutral: rgba(229, 235, 238, 1);
-    --clr-white: rgba(0, 0, 0, 1);
-    --clr-black: rgba(255, 255, 255, 1);
+    --clr-black: rgba(0, 0, 0, 1);
+    --clr-white: rgba(255, 255, 255, 1);
 
     --fw-regular: 400;
 	--fw-medium: 500;
@@ -39,6 +39,10 @@
     display: none;
 }
 
+.sticky {
+    position: sticky;
+}
+
 /*  ==========
  *  Element styles
  *  =========
@@ -46,6 +50,7 @@
 
 a {
     text-decoration: none;
+    color: var(--clr-black);
 }
 
 li {
