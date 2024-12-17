@@ -1,18 +1,20 @@
 .left-sidebar {
-    width: 20rem;
+    width: 27rem;
+    border-right: solid 0.2rem var(--clr-neutral);
 }
 
-.left-sidebar--nav {
-    display: flex;
-    flex-direction: row;
+.left-sidebar--nav a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
 }
 
 .left-sidebar--subitems {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: solid 0.2rem var(--clr-neutral);
 }
 
 .left-sidebar a {
-    padding-bottom: 0.25rem;
     padding-top: 0.25rem;
 }
 
@@ -27,4 +29,9 @@
 
 .left-sidebar--heading {
     width: 100%; 
+    flex-direction: column;
+}
+
+.left-sidebar--heading li {
+    padding-left: 2rem;
 }

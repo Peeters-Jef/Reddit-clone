@@ -1,8 +1,8 @@
 function Sidebar() {
     return (
         <div className="container left-sidebar sticky">
-            <nav className="left-sidebar--nav">
-                <ul className="left-sidebar--heading">
+            <nav className="flex left-sidebar--nav">
+                <ul className="left-sidebar--heading flex">
                     <ul className="left-sidebar--subitems" id="nav--sub-ul">
                         <li className="active">
                             <a href="#">Home</a>
